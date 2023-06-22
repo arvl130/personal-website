@@ -99,8 +99,8 @@ import informationSystemImgPath from "../assets/imgs/projects/information-system
         Tools I'm Familiar With
       </h2>
       <p class="text-xl text-white text-center">
-        HTML CSS JavaScript PHP MySQL Bootstrap Java Swing C++ Qt SQLite Vue.js
-        Nuxt.js React.js Next.js Firebase Tailwind PostgreSQL DynamoDB
+        React, Next.js, Vue, Nuxt.js, Node.js, Express, tRPC, TailwindCSS,
+        Firestore, PHP, MySQL, HTML, CSS, JavaScript
       </p>
     </div>
   </section>
