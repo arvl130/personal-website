@@ -6,5 +6,6 @@ This is my personal website that I update from time to time.
 
 - `pnpm install` install project dependencies
 - `pnpm dev` compile and hot-reload for development
-- `pnpm build` compile andmMinify for production
-- `pnpm lint` lint with [ESLint](https://eslint.org/)
+- `pnpm build` compile and minify for production
+- `pnpm preview` preview production website
+- `pnpm astro` run an Astro CLI command
