@@ -544,7 +544,12 @@
               </p>
             </li>
           </ul>
-          <div>
+          <form
+            method="post"
+            name="contact"
+            data-netlify="true"
+            netlify-honeypot="bot-field"
+          >
             <h3 class="text-gray-800 text-2xl font-medium mb-3">Feedback</h3>
             <label class="block font-medium text-gray-700 mb-2">
               Name <span class="italic font-normal">(optional)</span>
@@ -552,17 +557,43 @@
             <input
               type="text"
               class="block w-full px-3 py-2 text-gray-700 rounded-md border mb-2 focus:outline-none focus:ring focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40"
+              name="name"
             />
             <label class="block font-medium text-gray-700 mb-2">Email</label>
             <input
               type="text"
               class="block w-full px-3 py-2 text-gray-700 rounded-md border mb-2 focus:outline-none focus:ring focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40"
+              name="email"
             />
             <label class="block font-medium text-gray-700 mb-2">Message</label>
             <textarea
               class="block w-full h-40 px-3 py-2 text-gray-700 bg-white border rounded-md mb-2 focus:outline-none focus:ring focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40"
-            ></textarea>
-          </div>
+              name="message"></textarea>
+            <div class="flex justify-between items-center mb-3">
+              <p class="text-gray-700 text-sm">
+                If you are a bot, please also fill in the section below.
+              </p>
+              <button
+                type="submit"
+                class="px-4 py-2 bg-blue-600 hover:bg-blue-500 transition duration-200 text-white font-medium rounded-md"
+                >Send</button
+              >
+            </div>
+            <div>
+              <div class="mb-2">
+                <input type="checkbox" id="isBot" name="isBot" />
+                <label for="isBot" class="font-medium text-gray-700">
+                  Yes, I am a bot.
+                </label>
+              </div>
+              <input
+                type="text"
+                name="bot-field"
+                placeholder="Type your bot message here ..."
+                class="block w-full px-3 py-2 text-gray-700 rounded-md border mb-2 focus:outline-none focus:ring focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40"
+              />
+            </div>
+          </form>
         </div>
       </div>
     </section>
