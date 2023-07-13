@@ -548,6 +548,7 @@
             method="post"
             name="contact"
             data-netlify="true"
+            data-netlify-recaptcha="true"
             netlify-honeypot="bot-field"
           >
             <h3 class="text-gray-800 text-2xl font-medium mb-3">Feedback</h3>
@@ -571,16 +572,21 @@
               class="block w-full h-40 px-3 py-2 text-gray-700 bg-white border rounded-md mb-2 focus:outline-none focus:ring focus:border-blue-400 focus:ring-blue-300 focus:ring-opacity-40"
               name="message"
               required></textarea>
-            <div class="flex justify-between items-center mb-3">
-              <p class="text-gray-700 text-sm">
-                If you are a bot, please also fill in the section below.
-              </p>
-              <button
-                type="submit"
-                class="px-4 py-2 bg-blue-600 hover:bg-blue-500 transition duration-200 text-white font-medium rounded-md"
-              >
-                Send
-              </button>
+            <div class="flex justify-between mb-3">
+              <div>
+                <div data-netlify-recaptcha="true"></div>
+                <p class="text-gray-700 text-sm">
+                  If you are a bot, please also fill in the section below.
+                </p>
+              </div>
+              <div>
+                <button
+                  type="submit"
+                  class="px-4 py-2 bg-blue-600 hover:bg-blue-500 transition duration-200 text-white font-medium rounded-md"
+                >
+                  Send
+                </button>
+              </div>
             </div>
             <div>
               <div class="mb-2">
