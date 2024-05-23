@@ -17,6 +17,7 @@ export function Header() {
             target="_blank"
             className="h-full w-full hover:bg-neutral-100 duration-200 transition-colors rounded-lg flex justify-center items-center"
           >
+            <span className="sr-only">GitHub</span>
             <GithubLogo size={24} />
           </a>
         </li>
@@ -26,6 +27,7 @@ export function Header() {
             target="_blank"
             className="h-full w-full hover:bg-neutral-100 duration-200 transition-colors rounded-lg flex justify-center items-center"
           >
+            <span className="sr-only">Twitter</span>
             <TwitterLogo size={24} />
           </a>
         </li>
@@ -35,6 +37,7 @@ export function Header() {
             target="_blank"
             className="h-full w-full hover:bg-neutral-100 duration-200 transition-colors rounded-lg flex justify-center items-center"
           >
+            <span className="sr-only">A11y</span>
             <Sun size={24} />
           </a>
         </li>
