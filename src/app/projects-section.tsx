@@ -72,8 +72,7 @@ export function ProjectsSection() {
             Clinic Management System for LFI Dental Clinic
           </a>
           <p className="text-neutral-500 my-2">
-            Streamline scheduling of appointments and managing of patient
-            records.
+            Streamline appointment scheduling and management of patient records.
           </p>
           <a
             href="https://lfidentalclinic.vercel.app"
