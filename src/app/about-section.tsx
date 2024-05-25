@@ -4,12 +4,12 @@ export function AboutSection() {
   return (
     <section
       id="about"
-      className="max-w-2xl mx-auto px-3 py-2 mb-6 sm:flex justify-between items-end gap-x-6"
+      className="max-w-2xl mx-auto px-3 mb-12 sm:flex justify-between items-end gap-x-6"
     >
-      <div className="text-justify mb-3 sm:mb-0">
-        <p className="text-2xl mb-3 font-mono before:content-['#_']">
+      <div className="text-justify mb-4 sm:mb-0">
+        <h2 className="text-2xl mb-4 font-mono before:content-['#_']">
           about me
-        </p>
+        </h2>
         <p>
           My name is{" "}
           <a
@@ -35,8 +35,8 @@ export function AboutSection() {
         width={300}
         height={300}
         src="/assets/img/profile-picture.webp"
-        alt="At the jeepney."
-        className="rounded-lg size-32"
+        alt="Me on a jeepney."
+        className="rounded-lg size-32 bg-gray-200"
       />
     </section>
   )

@@ -2,12 +2,12 @@ import { ArrowUpRight } from "@phosphor-icons/react/dist/ssr/ArrowUpRight"
 
 export function ContactSection() {
   return (
-    <section id="contact" className="max-w-2xl mx-auto px-3 py-2 mb-6">
-      <h2 className="text-2xl mb-3 font-mono before:content-['#_']">
+    <section id="contact" className="max-w-2xl mx-auto px-3 mb-8">
+      <h2 className="text-2xl mb-4 font-mono before:content-['#_']">
         let&apos;s talk
       </h2>
-      <p className="mb-3">You can contact me through any of these platforms.</p>
-      <ul className="grid grid-cols-[auto_1fr] gap-x-12">
+      <p className="mb-2">You can contact me through any of these platforms.</p>
+      <ul className="grid grid-cols-[auto_1fr] gap-x-8">
         <li>
           <a
             href="https://twitter.com/ageulin123"
