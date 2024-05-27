@@ -93,7 +93,7 @@ export function ProjectsSection() {
         </li>
       </ul>
       <p className="mt-6">
-        You&apos;ll find most of my projects on{" "}
+        You&apos;ll find most of my other projects on{" "}
         <a
           href="https://github.com/arvl130"
           target="_blank"
