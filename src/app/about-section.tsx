@@ -36,7 +36,7 @@ export function AboutSection() {
         height={300}
         src="/assets/img/profile-picture.webp"
         alt="Me on a jeepney."
-        className="rounded-lg size-32 bg-gray-100"
+        className="rounded-lg size-32 bg-gray-100 dark:bg-neutral-800"
       />
     </section>
   )

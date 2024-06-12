@@ -1,5 +1,5 @@
 import { GithubLogo } from "@phosphor-icons/react/dist/ssr/GithubLogo"
-import { Sun } from "@phosphor-icons/react/dist/ssr/Sun"
+import { ThemeSwitcher } from "./theme-switcher"
 import { TwitterLogo } from "@phosphor-icons/react/dist/ssr/TwitterLogo"
 
 export function Header() {
@@ -15,7 +15,7 @@ export function Header() {
           <a
             href="https://github.com/arvl130"
             target="_blank"
-            className="h-full w-full hover:bg-neutral-100 duration-200 transition-colors rounded-lg flex justify-center items-center"
+            className="h-full w-full hover:bg-neutral-100 dark:hover:bg-neutral-800 duration-200 transition-colors rounded-lg flex justify-center items-center"
           >
             <span className="sr-only">GitHub</span>
             <GithubLogo size={24} />
@@ -25,21 +25,14 @@ export function Header() {
           <a
             href="https://twitter.com/ageulin123"
             target="_blank"
-            className="h-full w-full hover:bg-neutral-100 duration-200 transition-colors rounded-lg flex justify-center items-center"
+            className="h-full w-full hover:bg-neutral-100 dark:hover:bg-neutral-800 duration-200 transition-colors rounded-lg flex justify-center items-center"
           >
             <span className="sr-only">Twitter</span>
             <TwitterLogo size={24} />
           </a>
         </li>
         <li className="size-8">
-          <a
-            href="https://www.ageulin.com"
-            target="_blank"
-            className="h-full w-full hover:bg-neutral-100 duration-200 transition-colors rounded-lg flex justify-center items-center"
-          >
-            <span className="sr-only">A11y</span>
-            <Sun size={24} />
-          </a>
+          <ThemeSwitcher />
         </li>
       </ul>
     </header>

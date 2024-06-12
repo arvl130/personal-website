@@ -1,3 +1,4 @@
+import { ThemeProvider } from "@/components/theme-provider"
 import "./globals.css"
 import { Inter, JetBrains_Mono } from "next/font/google"
 
@@ -23,7 +24,16 @@ export default function RootLayout({
       lang="en"
       className={`${interFont.variable} ${jetbrainsMonoFont.variable}`}
     >
-      <body>{children}</body>
+      <body>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          {children}
+        </ThemeProvider>
+      </body>
     </html>
   )
 }

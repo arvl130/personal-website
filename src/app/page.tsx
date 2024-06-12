@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <div className="min-h-dvh flex flex-col">
       <Header />
-      <main className="text-neutral-800 flex-grow">
+      <main className="text-neutral-800 dark:text-white flex-grow">
         <AboutSection />
         <ProjectsSection />
         <ContactSection />

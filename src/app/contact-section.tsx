@@ -12,7 +12,7 @@ export function ContactSection() {
           <a
             href="https://twitter.com/ageulin123"
             target="_blank"
-            className="inline-flex gap-x-2 hover:text-gray-500 duration-200 transition-colors"
+            className="inline-flex gap-x-2 hover:text-gray-500 dark:hover:text-neutral-400 duration-200 transition-colors"
           >
             <ArrowUpRight size={24} />
             <p>Twitter</p>
@@ -23,7 +23,7 @@ export function ContactSection() {
           <a
             href="https://www.linkedin.com/in/ageulin"
             target="_blank"
-            className="inline-flex gap-x-2 hover:text-gray-500 duration-200 transition-colors"
+            className="inline-flex gap-x-2 hover:text-gray-500 dark:hover:text-neutral-400 duration-200 transition-colors"
           >
             <ArrowUpRight size={24} />
             <p>LinkedIn</p>
@@ -33,7 +33,7 @@ export function ContactSection() {
           <a
             href="https://www.facebook.com/ageulin123"
             target="_blank"
-            className="inline-flex gap-x-2 hover:text-gray-500 duration-200 transition-colors"
+            className="inline-flex gap-x-2 hover:text-gray-500 dark:hover:text-neutral-400 duration-200 transition-colors"
           >
             <ArrowUpRight size={24} />
             <p>Facebook</p>
@@ -43,7 +43,7 @@ export function ContactSection() {
           <a
             href="mailto:hello@ageulin.com"
             target="_blank"
-            className="inline-flex gap-x-2 hover:text-gray-500 duration-200 transition-colors"
+            className="inline-flex gap-x-2 hover:text-gray-500 dark:hover:text-neutral-400 duration-200 transition-colors"
           >
             <ArrowUpRight size={24} />
             <p>Email</p>

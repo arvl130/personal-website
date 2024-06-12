@@ -15,13 +15,13 @@ export function ProjectsSection() {
           >
             Package Tracking System for RRG Freight Services
           </a>
-          <p className="text-neutral-500 my-2">
+          <p className="text-neutral-500 dark:text-neutral-400 my-2">
             An intelligent monitoring system for freight forwarders.
           </p>
           <a
             href="https://www.rrgfreight.services"
             target="_blank"
-            className="inline-flex items-center gap-x-1 bg-neutral-100 hover:bg-neutral-200 px-2 py-1 rounded-full duration-200 transition-colors"
+            className="inline-flex items-center gap-x-1 bg-neutral-100 hover:bg-neutral-200 dark:bg-neutral-800 hover:dark:bg-neutral-900 px-2 py-1 rounded-full duration-200 transition-colors"
           >
             <ArrowUpRight size={18} />
             demo
@@ -29,7 +29,7 @@ export function ProjectsSection() {
           <a
             href="https://github.com/arvl130/rrg-freight-services-web"
             target="_blank"
-            className="ml-2 inline-flex items-center gap-x-1 bg-neutral-100 hover:bg-neutral-200 px-2 py-1 rounded-full duration-200 transition-colors"
+            className="ml-2 inline-flex items-center gap-x-1 bg-neutral-100 hover:bg-neutral-200 dark:bg-neutral-800 hover:dark:bg-neutral-900 px-2 py-1 rounded-full duration-200 transition-colors"
           >
             <ArrowUpRight size={18} />
             code
@@ -43,13 +43,13 @@ export function ProjectsSection() {
           >
             Ecommerce Website for Filipino de Cuisine
           </a>
-          <p className="text-neutral-500 my-2">
+          <p className="text-neutral-500 dark:text-neutral-400 my-2">
             Place orders and schedule reservations online.
           </p>
           <a
             href="https://filipinodecuisine.ageulin.com/"
             target="_blank"
-            className="inline-flex items-center gap-x-1 bg-neutral-100 hover:bg-neutral-200 px-2 py-1 rounded-full duration-200 transition-colors"
+            className="inline-flex items-center gap-x-1 bg-neutral-100 hover:bg-neutral-200 dark:bg-neutral-800 hover:dark:bg-neutral-900 px-2 py-1 rounded-full duration-200 transition-colors"
           >
             <ArrowUpRight size={18} />
             demo
@@ -57,7 +57,7 @@ export function ProjectsSection() {
           <a
             href="https://github.com/arvl130/filipino-de-cuisine"
             target="_blank"
-            className="ml-2 inline-flex items-center gap-x-1 bg-neutral-100 hover:bg-neutral-200 px-2 py-1 rounded-full duration-200 transition-colors"
+            className="ml-2 inline-flex items-center gap-x-1 bg-neutral-100 hover:bg-neutral-200 dark:bg-neutral-800 hover:dark:bg-neutral-900 px-2 py-1 rounded-full duration-200 transition-colors"
           >
             <ArrowUpRight size={18} />
             code
@@ -71,13 +71,13 @@ export function ProjectsSection() {
           >
             Clinic Management System for LFI Dental Clinic
           </a>
-          <p className="text-neutral-500 my-2">
+          <p className="text-neutral-500 dark:text-neutral-400 my-2">
             Streamline appointment scheduling and management of patient records.
           </p>
           <a
             href="https://lfidentalclinic.vercel.app"
             target="_blank"
-            className="inline-flex items-center gap-x-1 bg-neutral-100 hover:bg-neutral-200 px-2 py-1 rounded-full duration-200 transition-colors"
+            className="inline-flex items-center gap-x-1 bg-neutral-100 hover:bg-neutral-200 dark:bg-neutral-800 hover:dark:bg-neutral-900 px-2 py-1 rounded-full duration-200 transition-colors"
           >
             <ArrowUpRight size={18} />
             demo
@@ -85,7 +85,7 @@ export function ProjectsSection() {
           <a
             href="https://github.com/arvl130/nuxt-lfi-dental-clinic"
             target="_blank"
-            className="ml-2 inline-flex items-center gap-x-1 bg-neutral-100 hover:bg-neutral-200 px-2 py-1 rounded-full duration-200 transition-colors"
+            className="ml-2 inline-flex items-center gap-x-1 bg-neutral-100 hover:bg-neutral-200 dark:bg-neutral-800 hover:dark:bg-neutral-900 px-2 py-1 rounded-full duration-200 transition-colors"
           >
             <ArrowUpRight size={18} />
             code
