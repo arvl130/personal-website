@@ -4,7 +4,7 @@ import { TwitterLogo } from "@phosphor-icons/react/dist/ssr/TwitterLogo"
 
 export function Header() {
   return (
-    <header className="max-w-2xl mx-auto px-3 pt-12 pb-8 flex justify-between">
+    <header className="max-w-2xl mx-auto w-full px-3 pt-12 pb-8 flex justify-between">
       <div className="flex items-center">
         <a href="https://www.ageulin.com">
           <h1 className="font-semibold">Angelo Geulin</h1>

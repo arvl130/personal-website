@@ -12,12 +12,14 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <main className="text-neutral-800">
+    <div className="min-h-dvh flex flex-col">
       <Header />
-      <AboutSection />
-      <ProjectsSection />
-      <ContactSection />
+      <main className="text-neutral-800 flex-grow">
+        <AboutSection />
+        <ProjectsSection />
+        <ContactSection />
+      </main>
       <Footer />
-    </main>
+    </div>
   )
 }
