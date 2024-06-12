@@ -29,7 +29,14 @@ export function ThemeSwitcher() {
         />
       </DropdownMenuTrigger>
       <DropdownMenuContent>
-        <DropdownMenuItem onClick={() => setTheme("light")}>
+        <DropdownMenuItem
+          onClick={() => setTheme("light")}
+          className={
+            theme === "light"
+              ? "border border-zinc-200 bg-zinc-50 hover:bg-zinc-100 dark:border-none dark:text-white dark:bg-zinc-900 dark:hover:bg-zinc-800"
+              : ""
+          }
+        >
           {theme === "light" ? (
             <Check size={20} className="mr-2" />
           ) : (
@@ -37,7 +44,14 @@ export function ThemeSwitcher() {
           )}
           Light
         </DropdownMenuItem>
-        <DropdownMenuItem onClick={() => setTheme("dark")}>
+        <DropdownMenuItem
+          onClick={() => setTheme("dark")}
+          className={
+            theme === "dark"
+              ? "border border-zinc-200 bg-zinc-50 hover:bg-zinc-100 dark:border-none dark:text-white dark:bg-zinc-900 dark:hover:bg-zinc-800"
+              : ""
+          }
+        >
           {theme === "dark" ? (
             <Check size={20} className="mr-2" />
           ) : (
@@ -45,7 +59,14 @@ export function ThemeSwitcher() {
           )}
           Dark
         </DropdownMenuItem>
-        <DropdownMenuItem onClick={() => setTheme("system")}>
+        <DropdownMenuItem
+          onClick={() => setTheme("system")}
+          className={
+            theme === "system"
+              ? "border border-zinc-200 bg-zinc-50 hover:bg-zinc-100 dark:border-none dark:text-white dark:bg-zinc-900 dark:hover:bg-zinc-800"
+              : ""
+          }
+        >
           {theme === "system" ? (
             <Check size={20} className="mr-2" />
           ) : (
