@@ -23,7 +23,7 @@ export function AboutSection() {
           for companies that boost productivity and deliver exceptional customer
           experiences.
         </p>
-        <p className="mt-2">
+        <p className="mt-3">
           I&apos;m a passionate tech evangelist and an advocate for open-source
           software. When I&apos;m not coding, I like to share the new things
           that I&apos;ve learned on{" "}
