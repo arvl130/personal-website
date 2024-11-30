@@ -4,7 +4,7 @@ export function AboutSection() {
   return (
     <section
       id="about"
-      className="max-w-2xl mx-auto px-3 mb-12 sm:flex justify-between items-end gap-x-6"
+      className="max-w-2xl mx-auto px-3 mb-12 sm:flex justify-between items-center gap-x-6"
     >
       <div className="text-justify mb-4 sm:mb-0">
         <h2 className="text-2xl mb-4 font-mono before:content-['#_']">
@@ -18,9 +18,15 @@ export function AboutSection() {
           >
             Angelo Geulin
           </a>
-          . I&apos;m a software developer from the Philippines focusing on
-          cross-platform technologies and open-source software. I like making
-          things and sharing the things that I&apos;ve learned on{" "}
+          . I&apos;m a software developer from the Philippines specializing in
+          Web, Mobile, Cloud, and AI technologies. I build software solutions
+          for companies that boost productivity and deliver exceptional customer
+          experiences.
+        </p>
+        <p className="mt-2">
+          I&apos;m a passionate tech evangelist and an advocate for open-source
+          software. When I&apos;m not coding, I like to share the new things
+          that I&apos;ve learned on{" "}
           <a
             href="https://blog.ageulin.com"
             target="_blank"
