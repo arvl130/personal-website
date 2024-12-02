@@ -18,10 +18,8 @@ export function AboutSection() {
           >
             Angelo Geulin
           </a>
-          . I&apos;m a software developer from the Philippines specializing in
-          Web, Mobile, Cloud, and AI technologies. I build software solutions
-          for companies that boost productivity and deliver exceptional customer
-          experiences.
+          . I&apos;m a software developer from the Philippines. I build software
+          solutions for companies using Web, Mobile, Cloud, and AI technologies.
         </p>
         <p className="mt-3">
           I&apos;m a passionate tech evangelist and an advocate for open-source
