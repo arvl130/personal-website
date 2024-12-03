@@ -7,7 +7,7 @@ export function ContactSection() {
         let&apos;s talk
       </h2>
       <p className="mb-2">You can contact me through any of these platforms.</p>
-      <ul className="grid grid-cols-[auto_auto_1fr] gap-x-8">
+      <ul className="grid grid-cols-[auto_1fr] sm:grid-cols-[auto_auto_1fr] gap-x-8">
         <li>
           <a
             href="https://twitter.com/ageulin123"
