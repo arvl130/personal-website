@@ -9,6 +9,34 @@ export function ProjectsSection() {
       <ul className="space-y-6">
         <li>
           <a
+            href="https://github.com/arvl130/mmm"
+            target="_blank"
+            className="block font-medium underline underline-offset-4 text-justify"
+          >
+            MMM Meme Manager
+          </a>
+          <p className="text-neutral-500 dark:text-neutral-400 my-2">
+            AI-powered image search for your meme collection.
+          </p>
+          <a
+            href="https://m3.ageulin.com"
+            target="_blank"
+            className="inline-flex items-center gap-x-1 bg-neutral-100 hover:bg-neutral-200 dark:bg-neutral-800 hover:dark:bg-neutral-900 px-2 py-1 rounded-full duration-200 transition-colors"
+          >
+            <ArrowUpRight size={18} />
+            demo
+          </a>
+          <a
+            href="https://github.com/arvl130/mmm"
+            target="_blank"
+            className="ml-2 inline-flex items-center gap-x-1 bg-neutral-100 hover:bg-neutral-200 dark:bg-neutral-800 hover:dark:bg-neutral-900 px-2 py-1 rounded-full duration-200 transition-colors"
+          >
+            <ArrowUpRight size={18} />
+            code
+          </a>
+        </li>
+        <li>
+          <a
             href="https://github.com/arvl130/rrg-freight-services-web"
             target="_blank"
             className="block font-medium underline underline-offset-4 text-justify"
