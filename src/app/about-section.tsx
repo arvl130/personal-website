@@ -18,13 +18,15 @@ export function AboutSection() {
           >
             Angelo Geulin
           </a>
-          . I&apos;m a software developer from the Philippines. I build software
-          solutions for companies using Web, Mobile, Cloud, and AI technologies.
+          . I&apos;m a software developer from the Philippines with experience
+          building e-commerce platforms and supply-chain management software. I
+          create technical solutions to solve business problems using Web,
+          Mobile, Cloud, and AI technologies.
         </p>
         <p className="mt-3">
-          I&apos;m a passionate tech evangelist and an advocate for open-source
-          software. When I&apos;m not coding, I like to share the new things
-          that I&apos;ve learned on{" "}
+          In my free time, I contribute to open-source communities as a hobby
+          programmer and open-source software advocate. I also like to share the
+          new things that I&apos;ve learned on{" "}
           <a
             href="https://blog.ageulin.com"
             target="_blank"
