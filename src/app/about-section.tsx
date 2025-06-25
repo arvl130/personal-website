@@ -19,8 +19,8 @@ export function AboutSection() {
               </a>
               . I&apos;m a software developer from the Philippines with
               experience building e-commerce platforms and supply-chain
-              management software. I create technical solutions to solve
-              business problems using Web, Mobile, Cloud, and AI technologies.
+              management software. I solve business problems by creating
+              technical solutions using Web, Mobile, Cloud, and AI technologies.
             </p>
             <p className="mt-3">
               In my free time, I contribute to open-source communities as a
